@@ -15,6 +15,8 @@ public class tarea2GitJoseManuelRios {
         
         System.out.println("Jose Manuel");
         
+        Jugador jugador=new Jugador("Jose",1,1);
+        
     }
     
 }
