@@ -44,5 +44,10 @@ public class Jugador {
     public void setId(int id) {
         this.id = id;
     }
+
+    @Override
+    public String toString() {
+        return "Jugador{" + "nombre=" + nombre + ", votos=" + votos + ", id=" + id + '}';
+    }
     
 }
